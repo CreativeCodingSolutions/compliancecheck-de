@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://creativecodingsolutions.github.io/compliancecheck-de/</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://creativecodingsolutions.github.io/compliancecheck-de/impressum.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://creativecodingsolutions.github.io/compliancecheck-de/datenschutz.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/impressum.html</loc><priority>0.5</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/datenschutz.html</loc><priority>0.5</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/</loc><priority>0.8</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/dsgvo-bussgelder-2026.html</loc><priority>0.7</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/cookie-banner-ttdsg-2026.html</loc><priority>0.7</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/google-fonts-abmahnung.html</loc><priority>0.7</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/ki-impressum-pflicht.html</loc><priority>0.7</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/blog/feed.xml</loc><priority>0.3</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/faq/website-pflichten.html</loc><priority>0.6</priority></url>
+  <url><loc>https://creativecodingsolutions.github.io/compliancecheck-de/faq/abmahnung-vermeiden.html</loc><priority>0.6</priority></url>
 </urlset>

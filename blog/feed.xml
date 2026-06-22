@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ComplianceCheck DE Blog</title>
+    <link>https://creativecodingsolutions.github.io/compliancecheck-de/blog/</link>
+    <description>Blog und Ratgeber zur Website-Compliance in Deutschland: DSGVO, Impressumspflicht, Cookie-Banner und aktuelle Rechtsprechung.</description>
+    <language>de-de</language>
+    <lastBuildDate>Mon, 22 Jun 2026 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://creativecodingsolutions.github.io/compliancecheck-de/blog/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>DSGVO-Bußgelder 2026: Neue Entwicklungen und Risiken</title>
+      <link>https://creativecodingsolutions.github.io/compliancecheck-de/blog/dsgvo-bussgelder-2026.html</link>
+      <guid>https://creativecodingsolutions.github.io/compliancecheck-de/blog/dsgvo-bussgelder-2026.html</guid>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Die DSGVO-Bußgelder erreichen 2026 neue Höhen. Wir analysieren die aktuellen Zahlen, die strengere Linie der Aufsichtsbehörden und zeigen, wie Sie Ihr Unternehmen schützen können.</description>
+    </item>
+
+    <item>
+      <title>Cookie-Banner nach TTDSG: Was sich 2026 geändert hat</title>
+      <link>https://creativecodingsolutions.github.io/compliancecheck-de/blog/cookie-banner-ttdsg-2026.html</link>
+      <guid>https://creativecodingsolutions.github.io/compliancecheck-de/blog/cookie-banner-ttdsg-2026.html</guid>
+      <pubDate>Mon, 15 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Seit Inkrafttreten des TTDSG hat sich die Rechtsprechung zu Cookie-Bannern weiterentwickelt. Erfahren Sie, welche Anforderungen aktuell gelten und wie Sie Ihr Banner anpassen müssen.</description>
+    </item>
+
+    <item>
+      <title>Google Fonts und DSGVO: So vermeiden Sie eine Abmahnung</title>
+      <link>https://creativecodingsolutions.github.io/compliancecheck-de/blog/google-fonts-abmahnung.html</link>
+      <guid>https://creativecodingsolutions.github.io/compliancecheck-de/blog/google-fonts-abmahnung.html</guid>
+      <pubDate>Mon, 08 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Seit dem bahnbrechenden Urteil des LG München zu Google Fonts sind Abmahnungen an der Tagesordnung. Wir zeigen Ihnen, wie Sie Google Fonts DSGVO-konform einbinden oder auf sichere Alternativen umsteigen.</description>
+    </item>
+
+    <item>
+      <title>Impressumspflicht für KI-generierte Inhalte: Neue Rechtsprechung</title>
+      <link>https://creativecodingsolutions.github.io/compliancecheck-de/blog/ki-impressum-pflicht.html</link>
+      <guid>https://creativecodingsolutions.github.io/compliancecheck-de/blog/ki-impressum-pflicht.html</guid>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0200</pubDate>
+      <description>KI-generierte Inhalte nehmen rasant zu – doch wer haftet, wenn ein KI-Text fehlerhaft ist? Aktuelle Gerichtsurteile klären die Impressumspflicht für KI-Inhalte. Ein Überblick.</description>
+    </item>
+  </channel>
+</rss>
