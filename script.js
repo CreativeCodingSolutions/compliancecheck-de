@@ -414,7 +414,9 @@ function getTemplateSnippet(category) {
     'AGB': `Allgemeine Geschäftsbedingungen\n\n§1 Geltungsbereich\n§2 Vertragsschluss\n§3 Preise und Zahlung\n§4 Lieferung/Leistung\n§5 Widerrufsrecht\n§6 Gewährleistung\n§7 Haftung\n§8 Schlussbestimmungen`,
     'Widerrufsbelehrung': `Widerrufsbelehrung\n\nSie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.\n\nDie Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter die letzte Ware in Besitz genommen haben.`,
     'Versand & Zahlung': `Versandinformationen\n\nVersandkosten: [Betrag] innerhalb Deutschlands\nLieferzeit: [X] Werktage\nZahlungsmethoden: [Auflistung]`,
-    'Versand': `Versandinformationen\n\nVersandkosten: [Betrag] innerhalb Deutschlands\nLieferzeit: [X] Werktage\nZahlungsmethoden: [Auflistung]`
+    'Versand': `Versandinformationen\n\nVersandkosten: [Betrag] innerhalb Deutschlands\nLieferzeit: [X] Werktage\nZahlungsmethoden: [Auflistung]`,
+    'AGB (falls kostenpflichtig)': `Allgemeine Geschäftsbedingungen\n\n§1 Geltungsbereich\n§2 Vertragsschluss, Laufzeit und Kündigung\n§3 Leistungsbeschreibung\n§4 Preise und Zahlungsbedingungen\n§5 Haftung\n§6 Schlussbestimmungen`,
+    'AGB (optional)': `Allgemeine Geschäftsbedingungen (empfohlen)\n\n§1 Geltungsbereich\n§2 Vertragsschluss\n§3 Preise und Zahlung\n§4 Leistungsumfang\n§5 Gewährleistung und Haftung\n§6 Schlussbestimmungen`
   };
   return templates[category] || `Template für ${category} — bitte recherchieren Sie die genauen gesetzlichen Anforderungen.`;
 }
