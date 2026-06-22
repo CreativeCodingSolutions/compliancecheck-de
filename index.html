@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ComplianceCheck DE — DSGVO & Impressum Prüfung für Ihre Website</title>
+<meta name="description" content="Kostenloser Compliance-Check für Ihre Website: Prüfen Sie in 3 Minuten, ob Impressum, Datenschutzerklärung, Cookie-Banner und AGB vollständig sind.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <span class="logo-icon">CC</span>
+      ComplianceCheck DE
+    </a>
+    <nav class="nav">
+      <a href="/">Check</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Compliance-Check für Ihre Website</h1>
+      <p>In 3 Minuten zur Rechtssicherheit. Wählen Sie Ihren Website-Typ und erhalten Sie eine personalisierte Checkliste mit allen erforderlichen Compliance-Punkten.</p>
+      <div class="type-grid">
+        <div class="type-card" data-type="shop" onclick="startCheck('shop')">
+          <div class="type-icon">🛒</div>
+          <div class="type-label">Onlineshop</div>
+        </div>
+        <div class="type-card" data-type="saas" onclick="startCheck('saas')">
+          <div class="type-icon">💻</div>
+          <div class="type-label">SaaS / App</div>
+        </div>
+        <div class="type-card" data-type="freelance" onclick="startCheck('freelance')">
+          <div class="type-icon">👤</div>
+          <div class="type-label">Freelancer</div>
+        </div>
+        <div class="type-card" data-type="blog" onclick="startCheck('blog')">
+          <div class="type-icon">📝</div>
+          <div class="type-label">Blog</div>
+        </div>
+        <div class="type-card" data-type="local" onclick="startCheck('local')">
+          <div class="type-icon">🏪</div>
+          <div class="type-label">Lokales Gewerbe</div>
+        </div>
+        <div class="type-card" data-type="verein" onclick="startCheck('verein')">
+          <div class="type-icon">🏛️</div>
+          <div class="type-label">Verein</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="checklist" class="checklist-section">
+    <div class="container">
+      <div class="checklist-layout">
+        <aside class="steps-sidebar">
+          <div class="step-progress-label" id="progress-text">0 von 0 Punkten geprüft</div>
+          <div class="progress-bar" style="margin-bottom:1.5rem;">
+            <div id="progress-fill" class="progress-fill" style="width:0%"></div>
+          </div>
+          <div id="steps-list"></div>
+        </aside>
+        <div>
+          <div class="question-card">
+            <div id="question-content"></div>
+          </div>
+          <div id="nav-buttons" class="nav-buttons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="results-section">
+    <div class="container">
+      <div class="results-header">
+        <div class="results-score">
+          <div id="score-circle" class="score-circle">0%</div>
+          <div class="score-text">
+            <h3 id="score-verdict">Ihr Compliance-Ergebnis</h3>
+            <p id="score-detail">0 von 0 Punkten erfüllt</p>
+          </div>
+        </div>
+      </div>
+      <div id="result-categories"></div>
+      <div id="result-actions" class="result-actions"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="page-title">
+        <h2>Warum Compliance wichtig ist</h2>
+        <p>Fehlende oder unvollständige Rechtstexte können teure Abmahnungen und DSGVO-Strafen nach sich ziehen.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚖️</div>
+          <h3>Gesetzliche Pflicht</h3>
+          <p>Jede geschäftliche Website in Deutschland benötigt ein Impressum (§5 TMG) und eine Datenschutzerklärung (DSGVO).</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚠️</div>
+          <h3>Abmahnrisiko minimieren</h3>
+          <p>Abmahnungen kosten schnell 500–5.000 €. Unser Check hilft Ihnen, die häufigsten Fehler zu vermeiden.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Vertrauen aufbauen</h3>
+          <p>Vollständige Rechtstexte signalisieren Professionalität und schaffen Vertrauen bei Ihren Besuchern.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Personalisierter Bericht</h3>
+          <p>Abgestimmt auf Ihren Website-Typ erhalten Sie eine maßgeschneiderte Checkliste mit Vorlagen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="page-title">
+        <h2>Hinweis</h2>
+        <p>Dieser Check ersetzt keine anwaltliche Beratung. Bei komplexen Sachverhalten konsultieren Sie bitte einen Rechtsanwalt für IT-Recht.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="legal-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 ComplianceCheck DE</span>
+    <div class="footer-links">
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    Keine Rechtsberatung. Alle Angaben ohne Gewähr. Konsultieren Sie bei Bedarf einen Rechtsanwalt.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
